@@ -1,0 +1,46 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base{
+  *{
+    @apply transition;
+  }
+  html{
+    min-height: 100vh;
+    display: flex;
+  }
+  body{
+    @apply overflow-x-hidden overflow-y-auto;
+    width: 100%;
+    height: auto;
+  }
+
+  ::selection {
+    color: #fff;
+    background: #000;
+  }
+  img{
+    user-select: none;
+  }
+
+
+  #live2d-widget{
+    @apply opacity-0 md:opacity-100 !important;
+  }
+  .notLayout #live2d-widget{
+    @apply opacity-0 !important;
+  }
+
+  .empty-msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.5em;
+    text-align: center;
+  }
+}

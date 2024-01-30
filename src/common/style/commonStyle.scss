@@ -1,0 +1,12 @@
+.lock{
+  height: 100vh !important;
+  overflow: hidden;
+}
+html,body{
+  -webkit-overflow-scrolling: touch;
+  --main-color: rgb(20, 241, 221);
+  --main-color-dim: rgb(15, 161, 148);
+}
+.textShadow{
+  text-shadow: 0 0 5px #fff;
+}

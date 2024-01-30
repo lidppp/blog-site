@@ -1,0 +1,42 @@
+{
+  "name": "blog-page",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "type": "module",
+  "dependencies": {
+    "aplayer": "^1.10.1",
+    "axios": "^1.6.7",
+    "dok-fps": "^1.0.1",
+    "github-markdown-css": "^5.0.0",
+    "highlight.js": "^11.3.1",
+    "js-cookie": "^3.0.1",
+    "kuan-vue-waterfall": "^3.0.1",
+    "live2d-widget": "3.x",
+    "marked": "^11.2.0",
+    "moment": "^2.29.1",
+    "parallax-js": "^3.1.0",
+    "sweetalert": "^2.1.2",
+    "theaterjs": "^3.2.0",
+    "u-reset.css": "^2.0.1",
+    "vue": "^3.2.20",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@headlessui/vue": "^1.4.1",
+    "@heroicons/vue": "^2.1.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/tailwindcss": "^3.1.0",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "autoprefixer": "^10.3.7",
+    "sass": "^1.43.3",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.12"
+  }
+}
