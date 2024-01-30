@@ -104,7 +104,7 @@ class Snow {
             this.creatSnow(i, true)
         }
         this.move()
-
+        document.addEventListener("load", this.Eresize)
         window.addEventListener('resize', this.Eresize)
         this.option.defaultMouse && this.bindMouse()
     }
